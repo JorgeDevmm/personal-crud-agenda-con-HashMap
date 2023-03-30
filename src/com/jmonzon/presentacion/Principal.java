@@ -33,29 +33,29 @@ public class Principal {
 
             switch (operacion) {
                 case 1:
-                    System.out.println("\nIngresar nombre");
+                    System.out.println("\nIngresar nombre: ");
                     entrada.nextLine();
                     nombre = entrada.nextLine();
-                    System.out.println("\nIngresar edad");
+                    System.out.println("\nIngresar edad: ");
                     edad = Integer.parseInt(entrada.nextLine());
-                    System.out.println("\nIngresar email");
+                    System.out.println("\nIngresar email: ");
                     email = entrada.nextLine();
 
                     if (gestor.agregar(nombre, email, edad)) {
-                        System.out.println("Contacto agregado");
+                        System.out.println("--Contacto agregado--");
                     } else {
-                        System.out.println("Contacto ya existe");
+                        System.out.println("--Contacto ya existe--");
                     }
                     break;
                 case 2:
 
-                    System.out.println("\nIngresar el email a buscar");
+                    System.out.println("\nIngresar el email a buscar: ");
                     entrada.nextLine();
                     email = entrada.nextLine();
 
 
                     if (gestor.buscar(email) == null) {
-                        System.out.println("No se encontro el email");
+                        System.out.println("--No se encontro el email--");
                     } else {
                         Contacto emailEncontrado = gestor.buscar(email);
                         System.out.println("Nombre:" + emailEncontrado.toString());
@@ -64,14 +64,14 @@ public class Principal {
                     break;
                 case 3:
 
-                    System.out.println("\nIngresar email a eliminar");
+                    System.out.println("\nIngresar email a eliminar: ");
                     entrada.nextLine();
                     email = entrada.nextLine();
 
                     if (gestor.eliminar(email)) {
-                        System.out.println("Se elimino contacto");
+                        System.out.println("--Se elimino contacto--");
                     } else {
-                        System.out.println("No se encontro contacto a eliminar");
+                        System.out.println("--No se encontro contacto a eliminar--");
                     }
                     break;
                 case 4:
@@ -80,16 +80,17 @@ public class Principal {
 //                    valido si se encuentran elementos por medio de la longitud del array
                     if (arregloMostrar.length > 0) {
                         for (int i = 0; i < arregloMostrar.length; i++) {
-                            System.out.println(arregloMostrar[i].getNombre() + " - " + arregloMostrar[i].getEdad() + " - " + arregloMostrar[i].getEdad());
+                            System.out.println(arregloMostrar[i].getNombre() + " - " + arregloMostrar[i].getEdad() + " - " + arregloMostrar[i].getEmail());
                         }
                     } else {
-                        System.out.println("No se encuentran contacto a mostrar");
+                        System.out.println("--No se encuentran contacto a mostrar--");
                     }
 
                     break;
                 case 5:
                     break;
                 default:
+                    System.out.println("--Debes escribir una opción válida--");
                     break;
             }
 

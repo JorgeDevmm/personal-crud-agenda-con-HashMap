@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688de9f5-a26f-4c4a-ba87-3da3e1562d5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio04_agenda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jmonzon/beans/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jmonzon/logica/GestionContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jmonzon/presentacion/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lombok.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio04_agenda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio04_agenda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jmonzon/beans/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jmonzon/beans/Contacto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jmonzon/logica/GestionContactos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jmonzon/logica/GestionContactos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jmonzon/presentacion/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jmonzon/presentacion/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Jorge/Practicas/Java-POO/ejercicio03_notas",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +58,9 @@
       <updated>1680118871758</updated>
       <workItem from="1680118874079" duration="1759000" />
       <workItem from="1680130679640" duration="2628000" />
-      <workItem from="1680181153914" duration="2226000" />
+      <workItem from="1680181153914" duration="4477000" />
+      <workItem from="1680189565104" duration="224000" />
+      <workItem from="1680194132048" duration="1953000" />
     </task>
     <servers />
   </component>
@@ -70,5 +77,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

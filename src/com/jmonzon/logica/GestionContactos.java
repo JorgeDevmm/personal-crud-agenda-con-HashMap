@@ -55,14 +55,14 @@ public class GestionContactos {
         }
     }
 
-    public Contacto[] recuperarContactor(){
+    public Contacto[] recuperarContactor() {
 //        Crea un array con el tamaño de los existentes
 //        y vuelca en el los contactos almacenados
         Contacto[] existentes = new Contacto[agenda.size()];
         int i = 0;
 //        obtengo los valores de hasmap y los asigno a una coleeción de tipo de dato de los values del hashMap
         Collection<Contacto> valores = agenda.values();
-        for(Contacto elemento: valores){
+        for (Contacto elemento : valores) {
             existentes[i] = elemento;
             i++;
         }
